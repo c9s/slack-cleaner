@@ -8,4 +8,4 @@ VOLUME ["/backup"]
 
 WORKDIR /backup
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT ["/usr/local/bin/slack-cleaner"]
